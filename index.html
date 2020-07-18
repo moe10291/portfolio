@@ -340,20 +340,17 @@
                 <h1>Contact</h1>
                 <h6>Let's work together</h6>
             </div>
-            <form action="">
+            <form action="https://formspree.io/meqrpwjz"
+            method="POST">
                 <label for="name">Name: </label>
-                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                <input type="text" class="name" id="name" name="name" placeholder="Enter Your Name" required>
                 <label for="email">Email: </label>
-                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-                <label for="email">Services: </label>
-                <select name="services" id="services">
-                    <option value="">Web Design</option>
-                    <option value="">Web Development</option>
-                    <option value="">Web Design/Development</option>
-                </select>
+                <input type="email" class="email" id="email" name="email" placeholder="Enter Your Email" required>
                 <label for="subject">Subject: </label>
-                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-                <input type="submit" name="submit" value="Submit">
+                <input type="text" class="subject" id="subject" name="subject" placeholder="Subject" required>
+                <label for="message">Message: </label>
+                <textarea name="message" class="message" id="message" cols="10" rows="10"></textarea>
+                <input class="submit" type="submit" name="submit" value="Submit">
             </form>
         </div>
     </section>
@@ -366,6 +363,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
 
