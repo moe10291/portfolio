@@ -229,11 +229,12 @@ background: linear-gradient(to top, #ffe838, #fd57bf);
 
 .landing-text h1{
     font-size: 20rem;
-    font-family: 'FFF Tusj';
+    font-family: 'Cabin Sketch', cursive;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
     user-select: none;
+    text-transform: uppercase;
 }
 
 .landing-text h6{
